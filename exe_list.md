@@ -1,0 +1,89 @@
+- [x] alterad.exe
+- [x] bblpt.exe
+- [x] bltsh.exe
+- [x] bltwish.exe
+- [x] cbx_altfpc.exe
+- [x] clearbox.exe
+- [x] dmf_ver.exe
+- [x] jtagconfig.exe
+- [x] jtagserver.exe
+- [x] killqw.exe
+- [x] lmgrd.exe
+- [x] lmtools.exe
+- [x] lmutil.exe
+- [x] mega_alt2gxb_reconfig.exe
+- [x] mega_altaccumulate.exe
+- [x] mega_altasmi.exe
+- [x] mega_altcdr.exe
+- [x] mega_altclkbuf.exe
+- [x] mega_altclklock.exe
+- [ ] mega_altddio.exe
+- [ ] mega_altdqs.exe
+- [ ] mega_altecc.exe
+- [ ] mega_altfp_add_sub.exe
+- [ ] mega_altfp_compare.exe
+- [ ] mega_altfp_div.exe
+- [ ] mega_altfp_mult.exe
+- [ ] mega_altfp_sqrt.exe
+- [ ] mega_altgxb.exe
+- [ ] mega_altiobuf.exe
+- [ ] mega_altlvds.exe
+- [ ] mega_altmemmult.exe
+- [ ] mega_altmult_accum.exe
+- [ ] mega_altmult_add.exe
+- [ ] mega_altparallel_flash_loader.exe
+- [ ] mega_altpll_reconfig.exe
+- [ ] mega_altremote_update.exe
+- [ ] mega_altserial_flash_loader.exe
+- [ ] mega_altshift_taps.exe
+- [ ] mega_altsimple_pll.exe
+- [ ] mega_altsld_virtual_jtag.exe
+- [ ] mega_altsource_probe.exe
+- [ ] mega_altsqrt.exe
+- [ ] mega_altufm.exe
+- [ ] mega_alt_oct.exe
+- [ ] mega_csm.exe
+- [ ] mega_divide.exe
+- [ ] mega_lpm_arithm.exe
+- [ ] mega_lpm_clshift.exe
+- [ ] mega_lpm_counter.exe
+- [ ] mega_lpm_mux.exe
+- [ ] mega_lpm_ram.exe
+- [ ] mega_parallel_add.exe
+- [ ] mega_quadram.exe
+- [ ] mega_sld_signaltap.exe
+- [ ] mgcld.exe
+- [ ] mif2hex.exe
+- [ ] pll_cmd.exe
+- [ ] qmegawiz.exe
+- [ ] qstaw.exe
+- [ ] qtb_install.exe
+- [ ] qtb_sender.exe
+- [x] quartus.exe
+- [ ] quartus_asm.exe
+- [ ] quartus_cdb.exe
+- [ ] quartus_cmd.exe
+- [ ] quartus_cpf.exe
+- [ ] quartus_drc.exe
+- [ ] quartus_eda.exe
+- [ ] quartus_fit.exe
+- [ ] quartus_g2b.exe
+- [ ] quartus_jbcc.exe
+- [ ] quartus_jli.exe
+- [ ] quartus_map.exe
+- [ ] quartus_pgm.exe
+- [ ] quartus_pgmw.exe
+- [ ] quartus_pow.exe
+- [ ] quartus_rpp.exe
+- [ ] quartus_sh.exe
+- [ ] quartus_si.exe
+- [ ] quartus_sim.exe
+- [ ] quartus_smew.exe
+- [ ] quartus_sta.exe
+- [ ] quartus_staw.exe
+- [ ] quartus_stp.exe
+- [ ] quartus_stpw.exe
+- [ ] quartus_tan.exe
+- [ ] quartus_源文件.exe
+- [ ] tclsh84.exe
+- [ ] wish84.exe
