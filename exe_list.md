@@ -1,16 +1,4 @@
-- [x] alterad.exe
-- [x] bblpt.exe
-- [x] bltsh.exe
-- [x] bltwish.exe
-- [x] cbx_altfpc.exe
-- [x] clearbox.exe
-- [x] dmf_ver.exe
-- [x] jtagconfig.exe
-- [x] jtagserver.exe
-- [x] killqw.exe
-- [x] lmgrd.exe
 - [x] lmtools.exe
-- [x] lmutil.exe
 - [x] mega_alt2gxb_reconfig.exe
 - [x] mega_altaccumulate.exe
 - [x] mega_altasmi.exe
@@ -52,38 +40,80 @@
 - [ ] mega_parallel_add.exe
 - [ ] mega_quadram.exe
 - [ ] mega_sld_signaltap.exe
-- [ ] mgcld.exe
-- [ ] mif2hex.exe
-- [ ] pll_cmd.exe
 - [ ] qmegawiz.exe
 - [ ] qstaw.exe
 - [ ] qtb_install.exe
-- [ ] qtb_sender.exe
 - [x] quartus.exe
-- [ ] quartus_asm.exe
-- [ ] quartus_cdb.exe
-- [ ] quartus_cmd.exe
-- [ ] quartus_cpf.exe
-- [ ] quartus_drc.exe
-- [ ] quartus_eda.exe
-- [ ] quartus_fit.exe
-- [ ] quartus_g2b.exe
-- [ ] quartus_jbcc.exe
-- [ ] quartus_jli.exe
-- [ ] quartus_map.exe
-- [ ] quartus_pgm.exe
-- [ ] quartus_pgmw.exe
-- [ ] quartus_pow.exe
-- [ ] quartus_rpp.exe
-- [ ] quartus_sh.exe
-- [ ] quartus_si.exe
-- [ ] quartus_sim.exe
+- [x] quartus_pgmw.exe
 - [ ] quartus_smew.exe
-- [ ] quartus_sta.exe
-- [ ] quartus_staw.exe
-- [ ] quartus_stp.exe
 - [ ] quartus_stpw.exe
-- [ ] quartus_tan.exe
-- [ ] quartus_源文件.exe
-- [ ] tclsh84.exe
-- [ ] wish84.exe
+- [x] ace_acv.dll
+- [ ] ace_ape.dll
+- [ ] ace_eco.dll
+- [ ] ace_lfp.dll
+- [ ] ace_sprb.dll
+- [ ] aog903as.dll
+- [ ] aot803as.dll
+- [ ] asfl203as.dll
+- [ ] axerces-c_2_6.dll
+- [ ] edt_ged.dll
+- [ ] edt_med.dll
+- [ ] edt_sme.dll
+- [ ] edt_sted.dll
+- [ ] edt_wed.dll
+- [ ] eqc_ecui.dll
+- [ ] gcl_afc.dll
+- [ ] gcl_cui.dll
+- [ ] hhactivex.dll
+- [ ] mfc71.dll
+- [ ] pgm_pgmw.dll
+- [ ] prj_arc.dll
+- [ ] prj_asd.dll
+- [ ] prj_cps.dll
+- [ ] prj_dpw.dll
+- [ ] prj_flp.dll
+- [ ] prj_llw.dll
+- [ ] prj_pjn.dll
+- [ ] prj_ppl.dll
+- [ ] prj_prd.dll
+- [ ] prj_unb.dll
+- [ ] resr_cfw.dll
+- [ ] resr_msw.dll
+- [ ] resr_oaw.dll
+- [ ] resr_ptw.dll
+- [ ] resr_qis.dll
+- [ ] resr_rpw.dll
+- [ ] resr_sfw.dll
+- [ ] resr_statw.dll
+- [ ] resr_stw.dll
+- [ ] resr_tfw.dll
+- [ ] rtlv_reqc.dll
+- [ ] rtlv_rsm.dll
+- [ ] rtlv_rui.dll
+- [ ] saui_ase.dll
+- [ ] saui_cset.dll
+- [ ] saui_cset_cdo.dll
+- [ ] saui_hctg.dll
+- [ ] saui_msd.dll
+- [ ] saui_pdef.dll
+- [ ] saui_peda.dll
+- [ ] saui_pset.dll
+- [ ] saui_ptim.dll
+- [ ] saui_setd.dll
+- [ ] saui_sset.dll
+- [ ] sld_atc.dll
+- [ ] sld_bnl.dll
+- [ ] sld_red.dll
+- [ ] sld_sed.dll
+- [ ] sys_cpt_gui.dll
+- [ ] tsm_awv.dll
+- [ ] tsm_dbu.dll
+- [ ] tsm_taw.dll
+- [ ] ace_sprb.dll
+
+
+
+---
+
+这里有一份二进制反编译文件，是quartus，请你将其中的英语翻译为中文，格式保持不变，注意不要翻译不该翻译的. 接下来我还会给你发送文本,此后的每一条都要遵守我的要求
+
