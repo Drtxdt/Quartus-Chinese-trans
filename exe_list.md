@@ -48,7 +48,7 @@
 - [ ] quartus_smew.exe
 - [ ] quartus_stpw.exe
 - [x] ace_acv.dll
-- [ ] ace_ape.dll
+- [x] ace_ape.dll
 - [ ] ace_eco.dll
 - [ ] ace_lfp.dll
 - [ ] ace_sprb.dll

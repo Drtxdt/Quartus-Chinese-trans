@@ -29,12 +29,14 @@ echo [1/3] 正在备份原始文件...
 copy /y "%target_dir%\quartus.exe" "backup\quartus.exe.bak" >nul
 copy /y "%target_dir%\lmtools.exe" "backup\lmtools.exe.bak" >nul
 copy /y "%target_dir%\ace_acv.dll" "backup\ace_acv.dll.bak" >nul
+copy /y "%target_dir%\ace_ape.dll" "backup\ace_ape.dll.bak" >nul
 
 :: 5. 执行补丁
 echo [2/3] 正在应用差异补丁...
 "bin\xdelta3.exe" -d -s "%target_dir%\quartus.exe" "diff\quartus.vcdiff" "quartus_patched_tmp.exe"
 "bin\xdelta3.exe" -d -s "%target_dir%\lmtools.exe" "diff\lmtools.vcdiff" "lmtools_patched_tmp.exe"
 "bin\xdelta3.exe" -d -s "%target_dir%\ace_acv.dll" "diff\ace_acv.vcdiff" "ace_acv_patched_tmp.dll"
+"bin\xdelta3.exe" -d -s "%target_dir%\ace_ape.dll" "diff\ace_ape.vcdiff" "ace_ape_patched_tmp.dll"
 
 if %errorlevel% neq 0 (
     echo.
@@ -42,16 +44,17 @@ if %errorlevel% neq 0 (
     if exist "quartus_patched_tmp.exe" del "quartus_patched_tmp.exe"
     if exist "lmtools_patched_tmp.exe" del "lmtools_patched_tmp.exe"
     if exist "ace_acv_patched_tmp.dll" del "ace_acv_patched_tmp.dll"
+    if exist "ace_ape_patched_tmp.dll" del "ace_ape_patched_tmp.dll"
     pause
     exit /b
 )
 
 :: 6. 替换原文件
 echo [3/3] 正在替换原程序文件...
-:: 使用 cmd /c 确保 move 指令在某些环境下能正确解析
 move /y "quartus_patched_tmp.exe" "%target_dir%\quartus.exe" >nul
 move /y "lmtools_patched_tmp.exe" "%target_dir%\lmtools.exe" >nul
 move /y "ace_acv_patched_tmp.dll" "%target_dir%\ace_acv.dll" >nul
+move /y "ace_ape_patched_tmp.dll" "%target_dir%\ace_ape.dll" >nul
 
 echo.
 echo ======================================================
