@@ -49,13 +49,13 @@
 - [ ] quartus_stpw.exe
 - [x] ace_acv.dll
 - [x] ace_ape.dll
-- [ ] ace_eco.dll
-- [ ] ace_lfp.dll
-- [ ] ace_sprb.dll
-- [ ] aog903as.dll
-- [ ] aot803as.dll
-- [ ] asfl203as.dll
-- [ ] axerces-c_2_6.dll
+- [x] ace_eco.dll
+- [x] ace_lfp.dll
+- [x] ace_sprb.dll
+- [x] aog903as.dll
+- [x] aot803as.dll
+- [x] asfl203as.dll
+- [x] axerces-c_2_6.dll
 - [ ] edt_ged.dll
 - [ ] edt_med.dll
 - [ ] edt_sme.dll
@@ -109,7 +109,6 @@
 - [ ] tsm_awv.dll
 - [ ] tsm_dbu.dll
 - [ ] tsm_taw.dll
-- [ ] ace_sprb.dll
 
 
 
