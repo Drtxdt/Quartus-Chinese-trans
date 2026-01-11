@@ -37,6 +37,8 @@ copy /y "%target_dir%\aog903as.dll" "backup\aog903as.dll.bak" >nul
 copy /y "%target_dir%\aot803as.dll" "backup\aot803as.dll.bak" >nul
 copy /y "%target_dir%\asfl203as.dll" "backup\asfl203as.dll.bak" >nul
 copy /y "%target_dir%\axerces-c_2_6.dll" "backup\axerces-c_2_6.dll.bak" >nul
+copy /y "%target_dir%\edt_ged.dll" "backup\edt_ged.dll.bak" >nul
+copy /y "%target_dir%\edt_med.dll" "backup\edt_med.dll.bak" >nul
 
 :: 5. 执行补丁
 echo [2/3] 正在应用差异补丁...
@@ -51,6 +53,8 @@ echo [2/3] 正在应用差异补丁...
 "bin\xdelta3.exe" -d -s "%target_dir%\aot803as.dll" "diff\aot803as.vcdiff" "aot803as_patched_tmp.dll"
 "bin\xdelta3.exe" -d -s "%target_dir%\asfl203as.dll" "diff\asfl203as.vcdiff" "asfl203as_patched_tmp.dll"
 "bin\xdelta3.exe" -d -s "%target_dir%\axerces-c_2_6.dll" "diff\axerces-c_2_6.vcdiff" "axerces-c_2_6_patched_tmp.dll"
+"bin\xdelta3.exe" -d -s "%target_dir%\edt_ged.dll" "diff\edt_ged.vcdiff" "edt_ged_patched_tmp.dll"
+"bin\xdelta3.exe" -d -s "%target_dir%\edt_med.dll" "diff\edt_med.vcdiff" "edt_med_patched_tmp.dll"
 
 if %errorlevel% neq 0 (
     echo.
@@ -66,6 +70,8 @@ if %errorlevel% neq 0 (
     if exist "aot803as_patched_tmp.dll" del "aot803as_patched_tmp.dll"
     if exist "asfl203as_patched_tmp.dll" del "asfl203as_patched_tmp.dll"
     if exist "axerces-c_2_6_patched_tmp.dll" del "axerces-c_2_6_patched_tmp.dll"
+    if exist "edt_ged_patched_tmp.dll" del "edt_ged_patched_tmp.dll"
+    if exist "edt_med_patched_tmp.dll" del "edt_med_patched_tmp.dll"
     pause
     exit /b
 )
@@ -83,6 +89,8 @@ move /y "aog903as_patched_tmp.dll" "%target_dir%\aog903as.dll" >nul
 move /y "aot803as_patched_tmp.dll" "%target_dir%\aot803as.dll" >nul
 move /y "asfl203as_patched_tmp.dll" "%target_dir%\asfl203as.dll" >nul
 move /y "axerces-c_2_6_patched_tmp.dll" "%target_dir%\axerces-c_2_6.dll" >nul
+move /y "edt_ged_patched_tmp.dll" "%target_dir%\edt_ged.dll" >nul
+move /y "edt_med_patched_tmp.dll" "%target_dir%\edt_med.dll" >nul
 
 echo.
 echo ======================================================

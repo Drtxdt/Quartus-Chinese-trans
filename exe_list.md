@@ -56,8 +56,8 @@
 - [x] aot803as.dll
 - [x] asfl203as.dll
 - [x] axerces-c_2_6.dll
-- [ ] edt_ged.dll
-- [ ] edt_med.dll
+- [x] edt_ged.dll
+- [x] edt_med.dll
 - [ ] edt_sme.dll
 - [ ] edt_sted.dll
 - [ ] edt_wed.dll
