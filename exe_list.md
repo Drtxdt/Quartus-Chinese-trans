@@ -58,10 +58,10 @@
 - [x] axerces-c_2_6.dll
 - [x] edt_ged.dll
 - [x] edt_med.dll
-- [ ] edt_sme.dll
-- [ ] edt_sted.dll
-- [ ] edt_wed.dll
-- [ ] eqc_ecui.dll
+- [x] edt_sme.dll
+- [x] edt_sted.dll
+- [x] edt_wed.dll
+- [x] eqc_ecui.dll
 - [ ] gcl_afc.dll
 - [ ] gcl_cui.dll
 - [ ] hhactivex.dll

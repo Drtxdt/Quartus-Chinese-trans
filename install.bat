@@ -39,6 +39,10 @@ copy /y "%target_dir%\asfl203as.dll" "backup\asfl203as.dll.bak" >nul
 copy /y "%target_dir%\axerces-c_2_6.dll" "backup\axerces-c_2_6.dll.bak" >nul
 copy /y "%target_dir%\edt_ged.dll" "backup\edt_ged.dll.bak" >nul
 copy /y "%target_dir%\edt_med.dll" "backup\edt_med.dll.bak" >nul
+copy /y "%target_dir%\edt_sme.dll" "backup\edt_sme.dll.bak" >nul
+copy /y "%target_dir%\edt_sted.dll" "backup\edt_sted.dll.bak" >nul
+copy /y "%target_dir%\edt_wed.dll" "backup\edt_wed.dll.bak" >nul
+copy /y "%target_dir%\eqc_ecui.dll" "backup\eqc_ecui.dll.bak" >nul
 
 :: 5. 执行补丁
 echo [2/3] 正在应用差异补丁...
@@ -55,6 +59,10 @@ echo [2/3] 正在应用差异补丁...
 "bin\xdelta3.exe" -d -s "%target_dir%\axerces-c_2_6.dll" "diff\axerces-c_2_6.vcdiff" "axerces-c_2_6_patched_tmp.dll"
 "bin\xdelta3.exe" -d -s "%target_dir%\edt_ged.dll" "diff\edt_ged.vcdiff" "edt_ged_patched_tmp.dll"
 "bin\xdelta3.exe" -d -s "%target_dir%\edt_med.dll" "diff\edt_med.vcdiff" "edt_med_patched_tmp.dll"
+"bin\xdelta3.exe" -d -s "%target_dir%\edt_sme.dll" "diff\edt_sme.vcdiff" "edt_sme_patched_tmp.dll"
+"bin\xdelta3.exe" -d -s "%target_dir%\edt_sted.dll" "diff\edt_sted.vcdiff" "edt_sted_patched_tmp.dll"
+"bin\xdelta3.exe" -d -s "%target_dir%\edt_wed.dll" "diff\edt_wed.vcdiff" "edt_wed_patched_tmp.dll"
+"bin\xdelta3.exe" -d -s "%target_dir%\eqc_ecui.dll" "diff\eqc_ecui.vcdiff" "eqc_ecui_patched_tmp.dll"
 
 if %errorlevel% neq 0 (
     echo.
@@ -72,6 +80,10 @@ if %errorlevel% neq 0 (
     if exist "axerces-c_2_6_patched_tmp.dll" del "axerces-c_2_6_patched_tmp.dll"
     if exist "edt_ged_patched_tmp.dll" del "edt_ged_patched_tmp.dll"
     if exist "edt_med_patched_tmp.dll" del "edt_med_patched_tmp.dll"
+    if exist "edt_sme_patched_tmp.dll" del "edt_sme_patched_tmp.dll"
+    if exist "edt_sted_patched_tmp.dll" del "edt_sted_patched_tmp.dll"
+    if exist "edt_wed_patched_tmp.dll" del "edt_wed_patched_tmp.dll"
+    if exist "eqc_ecui_patched_tmp.dll" del "eqc_ecui_patched_tmp.dll"
     pause
     exit /b
 )
@@ -91,6 +103,10 @@ move /y "asfl203as_patched_tmp.dll" "%target_dir%\asfl203as.dll" >nul
 move /y "axerces-c_2_6_patched_tmp.dll" "%target_dir%\axerces-c_2_6.dll" >nul
 move /y "edt_ged_patched_tmp.dll" "%target_dir%\edt_ged.dll" >nul
 move /y "edt_med_patched_tmp.dll" "%target_dir%\edt_med.dll" >nul
+move /y "edt_sme_patched_tmp.dll" "%target_dir%\edt_sme.dll" >nul
+move /y "edt_sted_patched_tmp.dll" "%target_dir%\edt_sted.dll" >nul
+move /y "edt_wed_patched_tmp.dll" "%target_dir%\edt_wed.dll" >nul
+move /y "eqc_ecui_patched_tmp.dll" "%target_dir%\eqc_ecui.dll" >nul
 
 echo.
 echo ======================================================
